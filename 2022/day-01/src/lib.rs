@@ -2,7 +2,7 @@
 pub fn process_part_1(input: &str) -> i32 {
     input.split("\n\n")
         .map(|x| {
-            x.split("\n")
+            x.lines()
                 .map(|y| y.parse::<i32>().unwrap())
                 .sum::<i32>()
         })
