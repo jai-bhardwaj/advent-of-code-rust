@@ -97,13 +97,9 @@ pub fn process_part_2(input: &str) -> i32 {
 mod tests {
     use super::*;
 
-    const INPUT: &str = "vJrwpWtwJgWrhcsFMMfFFhFp
-jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
-PmmdzqPrVvPwwTWBwg
-wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
-ttgJtRGJQctTZtZT
-CrZsJsPPZsGzwwsLwLmpwMDw
-";
+    const INPUT: &str = "A Y
+B X
+C Z";
 
     #[test]
     fn it_works() {
